@@ -1,0 +1,8 @@
+{
+  "name": "ZazCar",
+  "description": "",
+  "memory": 128,
+  "timeout": 5,
+  "role": "arn:aws:iam::191446976787:role/ZazCar_lambda_function",
+  "environment": {}
+}
