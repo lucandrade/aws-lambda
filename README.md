@@ -10,15 +10,14 @@ Deploy da aplicação foi feito usando [Apex](http://apex.run/)
 
 ## API
 
-[Endereço](https://d67fl7msok.execute-api.us-west-2.amazonaws.com/prod/)
-
-### Métodos
+[Endereço](https://d67fl7msok.execute-api.us-west-2.amazonaws.com/prod/)]
 
 > Todos os métodos POST podem ser chamados usando ContentType application/json e application/x-www-form-urlencoded
 
+### Criar usuário
+
 * POST /user
 
-Cria usuário
 
 Exemplo:
 
@@ -30,9 +29,9 @@ Exemplo:
 }
 ```
 
-* POST /login
+### Logar usuário
 
-Login de usuário
+* POST /login
 > Esse método retorna um token usado para consulta do usuário
 
 Exemplo:
@@ -44,8 +43,9 @@ Exemplo:
 }
 ```
 
+### Consultar usuário
+
 * GET /user
-Consulta usuário
 > Use o token retornado no método POST /login
 
 Exemplo:
