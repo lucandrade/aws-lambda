@@ -45,8 +45,8 @@ Exemplo:
 ```
 
 * GET /user
-
 Consulta usuário
+> Use o token retornado no método POST /login
 
 Exemplo:
 
