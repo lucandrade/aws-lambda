@@ -10,7 +10,7 @@ Deploy da aplicação foi feito usando [Apex](http://apex.run/)
 
 ## API
 
-[Endereço](https://d67fl7msok.execute-api.us-west-2.amazonaws.com/prod/)]
+[Endereço da API](https://d67fl7msok.execute-api.us-west-2.amazonaws.com/prod/)
 
 > Todos os métodos POST podem ser chamados usando ContentType application/json e application/x-www-form-urlencoded
 
