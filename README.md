@@ -18,7 +18,6 @@ Deploy da aplicação foi feito usando [Apex](http://apex.run/)
 
 * POST /user
 
-
 Exemplo:
 
 ```
@@ -32,6 +31,7 @@ Exemplo:
 ### Logar usuário
 
 * POST /login
+
 > Esse método retorna um token usado para consulta do usuário
 
 Exemplo:
@@ -46,6 +46,7 @@ Exemplo:
 ### Consultar usuário
 
 * GET /user
+
 > Use o token retornado no método POST /login
 
 Exemplo:
